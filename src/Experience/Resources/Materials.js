@@ -14,14 +14,6 @@ export default class Materials
             side: THREE.DoubleSide,
         })
 
-        this.ceiling = new THREE.MeshStandardMaterial({
-            metalness: 0.45,
-            roughness: 0.65,
-            side: THREE.DoubleSide,
-            transparent: true,
-            opacity: 1
-        })
-
         this.bricks = new THREE.MeshStandardMaterial({
             map: this.textures.bricksColor,
             metalness: 0.6,
